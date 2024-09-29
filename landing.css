@@ -54,8 +54,51 @@ body {
     text-decoration: none;
     font-weight: 700;
     margin-left: 10px;
+    transition: 0.5s;
 }
 
 .nav-item:hover {
     color: #65daff;
+    text-shadow: 0 0 5px #65daff;
+}
+
+.site-header {
+    height: 80vh;
+    background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg) center/cover no-repeat;
+    position: relative;
+}
+
+.header-content {
+    position:absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 40px;
+    width: 50%;
+}
+
+.header-title {
+    font-size: 100px;
+    color: #4e4e4e;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.header-sub-title {
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #4e4e4e;
+}
+
+.header-btn {
+    color: white;
+    text-decoration: none;  
+    background: linear-gradient(45deg, #65daff, #70ffcb);
+    padding: 30px 80px;
+    display:block;
+    width: fit-content;
+}
+
+.header-btn:hover {
+    transform: scale(1.1);
 }
