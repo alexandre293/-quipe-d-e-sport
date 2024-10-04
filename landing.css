@@ -100,5 +100,33 @@ body {
 }
 
 .header-btn:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); 
 }
+
+.header-btn:active {
+    background: linear-gradient(45deg, #347083, #388065);
+}
+
+.about {
+    height: 40vh;
+    text-align: center;
+}
+
+.about-card {
+    width: 24%;
+    display: inline-block;
+    margin-top: 100px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.about-card-image {
+    height: 130px;
+    margin-bottom: 30px;
+}
+
+.about-card-title {
+    font-size: 30px;
+    color: #65daff;
+}
+
