@@ -8,10 +8,57 @@
 }
 
 body {
-    background-color: #222222 ;
+    background-color: #222222;
 }
 
 form {
     width: 70%;
     background-color: #222222;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+    margin: 50px auto;
+
+}
+
+.form-head {
+    height: 50px;   
+    background-color: #65daff;
+    color: white;
+    text-align: center;
+}   
+
+.btn-back {
+    display: block;
+    background-color: white;
+    width: 50px;
+    float: left;
+    height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.btn-back:hover {
+    background-color: grey;
+}
+
+.btn-back:active { 
+    background-color: black;
+    color: white;
+}
+
+.form-title {
+    line-height: 50px;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.name, .surname {
+    width: 100%;
+    padding: 20px;
+    background: none;   
+     
 }
