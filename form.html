@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="form.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RobotBot Registration</title>
 </head>
+
 <body>
     <form>
         <div class="form-head">
-            <a href="landing.html" class="btn-back"><</a>
-            <h3 class="form-title">Application for membership</h3>
+            <a href="landing.html" class="btn-back">
+                <</a>
+                    <h3 class="form-title">Application for membership</h3>
         </div>
         <div class="form-body">
-            <input class="name" type="text" placeholder="Name">
-            <input class="surname" type="text" placeholder="Surname">
-            <p class="gender">Your gender</p>   
-            <input type="radio" class="male-radio" name="gender">
-            <label>M</label>
 
-            <input type="radio" class="female-radio" name="gender">
-            <label>W</label>
+            <fieldset class="nickname-fieldset">
+                <legend>Your nickname</legend>
+                <input class="name" type="text" placeholder="Name">
+                <input class="surname" type="text" placeholder="Surname">
+            </fieldset>
+            <p class="gender">Your gender</p>
 
-            <input type="checkbox" class="age" name="age">
-            <label>I got 18</label>
-            
-            <labet>Your game</labet>
-            <select class="game-select">
-                <option>CS:GO</option>
-                <option>Dota 2</option>
-                <option>Apex Legends</option>
-            </select>
+            <div class="input-box">
+                <input type="radio" class="male-radio" name="gender">
+                <label>M</label>
+
+                <input type="radio" class="female-radio" name="gender">
+                <label>W</label>
+            </div>
+
+            <div class="input-box">
+                <input type="checkbox" class="age" name="age">
+                <label>I got 18</label>
+            </div>
+
+            <div class="input-box">
+                <labet>Your game</labet>
+                <select class="game-select">
+                    <option>CS:GO</option>
+                    <option>Dota 2</option>
+                    <option>Apex Legends</option>
+                </select>
+            </div>
+
 
             <textarea class="comment" placeholder="Additional information"></textarea>
             <button class="request">Send a request</button>
         </div>
     </form>
 </body>
+
 </html>
